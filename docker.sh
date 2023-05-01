@@ -24,6 +24,6 @@ sudo groupadd docker
 sudo usermod -aG docker $USER
 newgrp docker
 
-IP=hostname --ip-address
+IP=$(hostname --ip-address)
 
 sudo docker swarm init --advertise-addr $IP
