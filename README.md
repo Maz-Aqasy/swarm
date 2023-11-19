@@ -1,4 +1,4 @@
-# Docker Setup Script
+# Docker Swarm Setup Script
 
 This script automates the installation of Docker and Docker Compose on an Ubuntu system. It also initializes a Docker Swarm with the host's IP address.
 
