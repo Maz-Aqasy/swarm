@@ -11,21 +11,33 @@ This script automates the installation of Docker and Docker Compose on an Ubuntu
 
 1. Open a terminal.
 
-2. Make the script executable:
+2. Clone this repository to your local machine:
+
+    ```bash
+    git clone https://github.com/aqasiz/swarm.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd swarm
+    ```
+
+3. Make the script executable:
 
     ```bash
     chmod +x setup-docker.sh
     ```
 
-3. Run the script:
+4. Run the script:
 
     ```bash
     ./setup-docker.sh
     ```
 
-4. Follow any prompts during the installation process.
+5. Follow any prompts during the installation process.
 
-5. After the script completes, Docker and Docker Compose should be installed, and a Docker Swarm will be initialized.
+6. After the script completes, Docker and Docker Compose should be installed, and a Docker Swarm will be initialized.
 
 ## Script Details
 
